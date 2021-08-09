@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0; list-style:none; outline:none; background:none;}
+body{font-size:14px; font-family:"微软雅黑";}
+a:link,a:visited{ text-decoration:none;}
+a:hover{text-decoration:none;}
+.head{
+	width:980px;
+	margin:0 auto;
+	height:50px;
+	padding-top:90px;
+	padding-right:60px;
+}
+.head .left{
+	float:left;
+	margin-top:-50px;
+	margin-left:-250px;
+}
+.head .right{float:right;}
+.dd{
+	float:right;
+	margin-right:30px;
+	margin-top:-120px;
+	font-size:17px;
+	}
+.box_c{
+	width:15%;
+	height:15px;
+	color:#000;
+	float:right;
+	border: 1px solid #000;
+	border-radius:25px;
+	margin-top:-70px;
+	overflow: hidden;
+	height: 35px;
+	margin-right:230px;
+}
+#box{
+	margin-top:-68px;
+	font-size:21px;
+	float:right;
+	margin-right:180px;
+}
+#nav{
+	width:100%;
+	background:#83aab9;
+}
+.nav{
+	width:1200px;
+	height:40px;
+	line-height:40px;
+    margin:0 auto; 
+    text-align:center; 
+	font-size:18px;
+	margin-right:210px;
+}
+.nav li{float:left;}
+.nav a{
+ 	display:inline-block; 
+	padding:0 80px;
+	}
+.nav a:hover{background:#83aab9;}
+.nav .color_in{background:#B8E1F5;}
+
+*{
+	margin:0;
+	padding: 0;
+	border: 0;
+	background: none;
+}
+
+.box {
+    border: 1px solid #000;
+    height: 600px;
+    width: 500px;
+    float: left;
+    margin: 180px;
+    margin-left: 35%;
+}
+.input_box{
+    text-align: center;
+    height: 30px;
+    width: 500px;
+	margin-top:30px;
+}
+input {
+	border: 1px solid #000;
+    align-self: center;
+    height: 35px;
+    width: 280px;
+}
+button{
+	margin-top:15px;
+    font-size: 20px;
+    width: 345px;
+    height: 45px;
+    align-self: center;
+    margin-bottom: auto;
+    background:#83aab9;
+    margin-left: 3%;
+	color:#FFF;
+}

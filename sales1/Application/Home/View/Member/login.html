@@ -1,0 +1,56 @@
+<layout name="Common/layout" />
+<link rel="stylesheet" href="__PUBLIC__/Home/style/login.css" type="text/css">
+<link href="__PUBLIC__/Home/style/style6.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Home/style/style3.css" type="text/css" rel="stylesheet" />
+
+	
+	<div class="head">
+    <div class="left"><img src="__PUBLIC__/Home/images/topic.jpg" /></div>
+</div>
+
+<div id="nav">
+    <ul class="nav">
+       <li><a href="<?php echo U('Index/index'); ?>" >首页</a></li>
+        <li><a href="<?php echo U('Index/Periodical'); ?>">期刊</a></li>
+        <li><a href="<?php echo U('Index/Book'); ?>">图书</a></li>
+        <li><a href="<?php echo U('Index/About'); ?>">关于我们</a></li>
+        <li><a href="<?php echo U('Index/Personal center'); ?>">个人中心</a></li>
+    </ul>
+</div>
+
+		<div style="float: right; margin-right: 500px; margin-top: 50px; padding: 60px 0 30px 30px; border: 1px solid #D1D1D1;" class="login_bc">
+			<div class="login_form fl">
+				<form action="__SELF__" method="post">
+					<ul>
+						<li>
+							<label for="">用户名：</label>
+							<input style="margin-left: -88px;" type="text" class="txt" name="username" />
+						</li>
+						<li>
+							<label for="">密码：</label>
+							<input style="margin-left: -20px;"   type="password" class="txt" name="password" />
+							<a href="">忘记密码?</a>
+						</li>
+						<li class="checkcode">
+							<label for="">验证码：</label>
+							<input style="margin-left: -55px;" type="text"  name="chkcode" placeholder="请输入验证码" />
+							<img style="cursor:pointer; width:20%; float:right; margin-right:120px; onclick="this.src='<?php echo U('chkcode'); ?>#'+Math.random();" src="<?php echo U('chkcode'); ?>" />
+						</li>
+						<li>
+							<label for="">&nbsp;</label>
+							<input style="margin-left: -140px;" type="submit" value="" class="login_btn" />
+						</li>
+					</ul>
+				</form>
+
+				<img style="margin-left:-20px; margin-top:20px; margin-bottom:20px; width:50%" src="__PUBLIC__/Home/images/title.jpg"   />
+    <br />
+    <img src="__PUBLIC__/Home/images/vx.png" />
+    <img src="__PUBLIC__/Home/images/qq.png" />
+
+			</div>
+			
+		
+		</div>
+	</div>
+	
